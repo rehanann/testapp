@@ -25,5 +25,5 @@ script:
 - /opt/chefdk/bin/foodcritic .
 - /opt/chefdk/bin/kitchen create
 - /opt/chefdk/bin/kitchen converge
-- kitchen login | sudo yum install -y wget | wget -p http://localhost
+- wget -p http://localhost:80
 - /opt/chefdk/bin/kitchen destroy
