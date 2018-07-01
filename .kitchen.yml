@@ -14,11 +14,11 @@ verifier:
   name: inspec
 
 platforms:
-  - name: centos-7
+  - name: centos-6
     driver_plugin: docker
     driver:
       use_sudo: false
-      image: centos:7
+      image: centos:6
 suites:
   - name: default
     run_list:
