@@ -22,3 +22,4 @@ before_script:
 - /opt/chefdk/bin/chef gem install kitchen-docker test-kitchen  foodcritic  kitchen-inspec  berkshelf
 script:
 - /opt/chefdk/bin/chef --version
+- /opt/chefdk/bin/foodcritic .
