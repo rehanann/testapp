@@ -19,7 +19,7 @@ language: ruby
 before_script:
 - eval "$(/opt/chefdk/bin/chef shell-init bash)"
 - /opt/chefdk/bin/chef gem install kitchen-docker test-kitchen  foodcritic  kitchen-inspec  berkshelf rake
-- yum install -y curl
+
 script:
 - /opt/chefdk/bin/chef --version
 - /opt/chefdk/bin/foodcritic .
