@@ -14,7 +14,6 @@ services:
 env:
   matrix:
   - CHEF_VERSION=latest LANGUAGE=ruby OS=centos-7
-  - CHEF_VERSION=latest LANGUAGE=rust OS=centos-7
   
 language: ruby
 before_script:
